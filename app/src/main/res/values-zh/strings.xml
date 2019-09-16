@@ -2,4 +2,9 @@
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">你好 世界!</string>
     <string name="ButtonText">我是个按钮</string>
+    <string name="welcome">看我的界面</string>
+    <string name="item1">点这里</string>
+    <string name="chk">这里打勾</string>
+    <string name="sw">开/关</string>
+    <string name="hinttext">请在这里输入</string>
 </resources>
