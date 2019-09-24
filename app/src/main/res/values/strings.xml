@@ -7,4 +7,15 @@
     <string name="chk">Check this out!</string>
     <string name="sw">Switch on / off</string>
     <string name="hinttext">Type here</string>
+    <string name="emailAdd">Enter your email address:</string>
+    <string name="passwd">Type your password:</string>
+    <string name="nameHint">Enter your name</string>
+    <string name="emailHint">Type email here</string>
+    <string name="emailHint2">Enter your email</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="profile">Your profile</string>
+    <string name="urName">Your name:</string>
+    <string name="urEmail">Your email:</string>
+    <string name="urPic">Your Picture:</string>
+    <string name="message">Click the button above to take a picture</string>
 </resources>

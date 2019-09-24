@@ -19,18 +19,18 @@
 
         <Button
             android:id="@+id/button1"
-            android:layout_width="wrap_content"
+            android:layout_width="230dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="fill"
+            android:layout_weight="1"
             android:text="@string/item1" />
 
         <CheckBox
             android:id="@+id/chk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="fill"
+            android:layout_weight="1"
             android:text="@string/chk" />
 
     </LinearLayout>
