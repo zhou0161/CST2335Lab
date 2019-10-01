@@ -18,4 +18,7 @@
     <string name="urEmail">您的电子邮箱:</string>
     <string name="urPic">您的照片:</string>
     <string name="message">请点击上面的按钮拍照</string>
+    <string name="chatBtn">开始对话</string>
+    <string name="send">发送</string>
+    <string name="receive">接收</string>
 </resources>

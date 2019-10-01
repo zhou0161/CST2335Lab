@@ -22,22 +22,23 @@ public class MainActivity extends AppCompatActivity {
 
         editText = findViewById(R.id.userEmail);
 
-        Button loginBtn = findViewById(R.id.loginButton);
-
         prefs = getSharedPreferences(previous, MODE_PRIVATE);
         previous = prefs.getString("userEmail", "");
 
         editText.setText(previous);
 
-        loginBtn.setOnClickListener(c -> {
-            Intent goProfileActivity = new Intent(MainActivity.this, ProfileActivity.class);
+        Button loginBtn = findViewById(R.id.loginButton);
 
-            goProfileActivity.putExtra("userEmail", editText.getText().toString());
-//            goProfileActivity.putExtra("email", "emialtest");
-//            goProfileActivity.putExtra("name", "nametest");
 
-            startActivityForResult(goProfileActivity, 30);
-        });
+            loginBtn.setOnClickListener(c -> {
+                Intent goProfileActivity = new Intent(MainActivity.this, ProfileActivity.class);
+
+                goProfileActivity.putExtra("userEmail", editText.getText().toString());
+
+
+                startActivityForResult(goProfileActivity, 30);
+            });
+
     }
 
     @Override
