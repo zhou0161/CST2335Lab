@@ -21,4 +21,6 @@
     <string name="chatBtn">开始对话</string>
     <string name="send">发送</string>
     <string name="receive">接收</string>
+    <string name="weatherbtn">天气预报</string>
+
 </resources>

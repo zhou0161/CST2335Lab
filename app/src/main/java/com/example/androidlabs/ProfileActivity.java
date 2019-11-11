@@ -5,7 +5,6 @@ import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -41,8 +40,14 @@ public class ProfileActivity extends AppCompatActivity {
         Button chatButton = findViewById(R.id.chatButton);
         chatButton.setOnClickListener(c -> {
                 Intent goChatRoomActivity = new Intent(ProfileActivity.this, ChatRoomActivity.class);
-                startActivityForResult(goChatRoomActivity, 2);
+                startActivityForResult(goChatRoomActivity, 22);
             });
+
+        Button weatherBtn = findViewById(R.id.weatherbtn);
+        weatherBtn.setOnClickListener(c ->{
+            Intent launchWeather = new Intent(ProfileActivity.this, WeatherForecast.class);
+            startActivityForResult(launchWeather, 66);
+        });
 
         Log.e(ACTIVITY_NAME, "In function:" + "onCreate()");
 
