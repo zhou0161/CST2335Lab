@@ -23,5 +23,7 @@
     <string name="receive">接收</string>
     <string name="weatherbtn">天气预报</string>
     <string name="toolbarBtn">前往功能栏页面</string>
+    <string name="aButton">按钮</string>
+    <string name="dialogMsg">请输入您的新消息?</string>
 
 </resources>

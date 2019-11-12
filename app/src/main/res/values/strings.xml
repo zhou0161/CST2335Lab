@@ -23,4 +23,6 @@
     <string name="receive">RECEIVE</string>
     <string name="weatherbtn">Weather Forecast</string>
     <string name="toolbarBtn">Go to Toolbar page</string>
+    <string name="aButton">Button</string>
+    <string name="dialogMsg">What is your new message?</string>
 </resources>
