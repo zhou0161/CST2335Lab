@@ -22,4 +22,5 @@
     <string name="send">SEND</string>
     <string name="receive">RECEIVE</string>
     <string name="weatherbtn">Weather Forecast</string>
+    <string name="toolbarBtn">Go to Toolbar page</string>
 </resources>

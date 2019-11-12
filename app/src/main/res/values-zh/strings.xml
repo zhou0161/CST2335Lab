@@ -22,5 +22,6 @@
     <string name="send">发送</string>
     <string name="receive">接收</string>
     <string name="weatherbtn">天气预报</string>
+    <string name="toolbarBtn">前往功能栏页面</string>
 
 </resources>
