@@ -4,8 +4,26 @@
 
     <item android:id="@+id/item1"
         android:title="Twitter"
-        android:icon="@drawable/icons8-twitter-64"
+        android:icon="@drawable/twitter"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
 
+    <item android:id="@+id/item2"
+        android:title="Youtube"
+        android:icon="@drawable/youtube"
+        android:orderInCategory="2"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/item3"
+        android:title="Ins"
+        android:icon="@drawable/instagram"
+        android:orderInCategory="3"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/item4"
+        android:title="Contact us"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
 
 
 </menu>
