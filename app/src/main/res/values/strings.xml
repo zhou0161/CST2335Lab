@@ -25,4 +25,5 @@
     <string name="toolbarBtn">Go to Toolbar page</string>
     <string name="aButton">Button</string>
     <string name="dialogMsg">What is your new message?</string>
+    <string name="fragmentDelBtn">DELETE THIS MESSAGE</string>
 </resources>

@@ -25,5 +25,6 @@
     <string name="toolbarBtn">前往功能栏页面</string>
     <string name="aButton">按钮</string>
     <string name="dialogMsg">请输入您的新消息?</string>
+    <string name="fragmentDelBtn">删除这条信息</string>
 
 </resources>

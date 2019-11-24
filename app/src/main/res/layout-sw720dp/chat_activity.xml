@@ -5,7 +5,7 @@
 
     <ListView
         android:id="@+id/messageField"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/receiveBtn"
         android:text="@string/receive"
-        android:layout_alignParentEnd="true"
+        android:layout_toLeftOf="@id/fragmentLocation"
         android:layout_alignParentBottom="true" />
 
     <EditText
@@ -38,5 +38,10 @@
         android:layout_toLeftOf="@id/receiveBtn"
         android:layout_toRightOf="@+id/sendBtn" />
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentLocation"
+        android:layout_toRightOf="@+id/messageField" />
 
 </RelativeLayout>
